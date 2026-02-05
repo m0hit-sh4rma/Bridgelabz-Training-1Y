@@ -1,5 +1,6 @@
 package com.gla.arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MultiplicationTable {
@@ -15,8 +16,10 @@ public class MultiplicationTable {
             arr[i-1] = n * i;
         }
 
-        for (int index = 0; index < arr.length; index++) {
-            System.out.print(arr[index] + " ");
-        }
+//        for (int index = 0; index < arr.length; index++) {
+//            System.out.print(arr[index] + " ");
+//        }
+
+        System.out.println(Arrays.toString(arr));
     }
 }
